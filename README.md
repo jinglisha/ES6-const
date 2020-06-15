@@ -58,8 +58,8 @@ console.log(a) // 报错 Uncaught TypeError: Assignment to constant variable.
     }
     ```    
     ```js
-    for(let i = 0; i < 10; i++){
-        console.log(i)
+    for(let i = 0; i < 3; i++){
+        console.log(i) // 0 1 2 
     }
     ```    
     
