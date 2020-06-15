@@ -8,8 +8,6 @@
 const a;
 console.log(a) // 报错（缺失初始化 在 一个常量的声明中）
 ```
-![dcbb82e510b8ba8dddb6666082f20fd7.png](evernotecid://273483B8-04F3-47A5-AAAB-822553D06969/appyinxiangcom/14519590/ENResource/p493)
-
 ### 常量不可以重新赋值
 
 ```js
@@ -17,15 +15,11 @@ const a = 1;
 a = 2; 
 console.log(a) // 报错（赋值给常量）
 ```
-![1e4d3f59cc07790cb8172e7fa2a188c0.png](evernotecid://273483B8-04F3-47A5-AAAB-822553D06969/appyinxiangcom/14519590/ENResource/p494)
-
 ### 要注意的细节
 
 #### 常量不可变
 
 常量不可变，是指声明的常量的内存空间不可变，并不保证内存空间中的地址指向的其他空间不可变。
-![eda7be1f1ec952715c09aa64bd240873.png](evernotecid://273483B8-04F3-47A5-AAAB-822553D06969/appyinxiangcom/14519590/ENResource/p496)
-
 ```js
 // 不能给a直接重新赋值，但是可以改变a里面的值 
 const a = {
@@ -62,16 +56,12 @@ console.log(a) // 报错 Uncaught TypeError: Assignment to constant variable.
     for(const prop in obj){
         console.log(prop) // name age
     }
-    ```
-    ![a7c32d94c5d420b688c2c450698dc9a8.png](evernotecid://273483B8-04F3-47A5-AAAB-822553D06969/appyinxiangcom/14519590/ENResource/p499)
-    
+    ```    
     ```js
     for(let i = 0; i < 10; i++){
         console.log(i)
     }
-    ```
-    ![8c6d20a65ea735b7d812c677cb7c3236.png](evernotecid://273483B8-04F3-47A5-AAAB-822553D06969/appyinxiangcom/14519590/ENResource/p497)
-    
+    ```    
     
     
 
