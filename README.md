@@ -1,4 +1,4 @@
-# es6-const
+# ES6-const
 
 > const和let完全相同，仅在于用const声明的变量，必须在声明时赋值，而且不可以重新赋值。
 
